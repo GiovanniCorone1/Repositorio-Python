@@ -6,5 +6,4 @@ for i in range(15):
   if i==11:
     break
   print(i)
-
 print("programa terminado")  

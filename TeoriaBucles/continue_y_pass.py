@@ -1,15 +1,22 @@
-#print("USO DEL CONTINUE")
-# for i in range(7,19):
-#   #no mostrar cuando aparece el numero 12
-#   if i==12:
+# print("USO DEL CONTINUE:")
+# number="123-456-789"
+# #se buscara mostara el numero sin los guiones
+# for i in number:
+#   #no mostrar cuando aparece los guiones
+#   if i=="-":
 #     continue
-#   print(i)
+#   print(i,end="")
 
-# print("USO DEL PASS")
+print("USO DEL PASS:")
 
 for i in range(12,19):
   #el pass no permite mostrar el numero 15
-  if i==15:
+  if i<15:
     pass
   else:
-   print(i)
+   print ("Estos son mayores a 15:")
+  print(i)
+
+#tbm se usan cuando aun no se definen el codigo de las funciones
+def funcionPrueba():
+  pass 
